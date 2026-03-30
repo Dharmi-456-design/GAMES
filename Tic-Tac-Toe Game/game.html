@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+   
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #548687;
+}
+
+.container{
+    height: 70vh;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vh ;
+    width: 60vh;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap : 1vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 15vmin;
+    background-color: #ffffff;
+    font-size: 10vmin;
+    background-color:#F8EECA ;
+    color: black;
+}
+    </style>
+</head>
+
+<body>
+    <p>TIC-TAC-TOE</p>
+    <div class="container">
+        <div class="game">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
